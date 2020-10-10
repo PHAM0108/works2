@@ -1,0 +1,24 @@
+@import "modules/variables";
+@import "modules/mixin";
+@import "modules/hero-slider";
+@import "modules/text-animation";
+
+@import "breakpoints/base";
+
+@media (min-width: 510px) {
+  @import "breakpoints/510up";
+}
+
+@media (min-width: 700px) {
+  @import "breakpoints/700up";
+}
+
+@media (min-width: 900px) {
+  @import "breakpoints/900up";
+}
+
+@media (min-width: 1280px) {
+  @import "breakpoints/1280up";
+}
+
+
